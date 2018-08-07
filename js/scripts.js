@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+  $("button").click(function(){
+    $(".tabcontent").hide();
+  })
+  
   $("button.click1").click(function() {
       $("#java").fadeToggle();
 
